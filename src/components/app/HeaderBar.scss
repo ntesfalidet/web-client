@@ -1,0 +1,75 @@
+@import "../../style/fonts.scss";
+@import "../../style/colors.scss";
+
+.app-header-bar-wrapper {
+  .app-header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 90%; // 100px
+    height: 75px;
+    left: 5%; // 0px
+
+    background-color: #ffffff;
+
+    .profile-info-wrapper {
+      display: flex;
+      align-items: center;
+
+      > img {
+        height: 50px;
+        width: 50px;
+
+        border-radius: 5px;
+      }
+
+      .profile-info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        font-family: $font-subheading;
+
+        .profile-name {
+          display: flex;
+
+          > span {
+            font-size: 18px;
+            color: $app-black;
+          }
+        }
+
+        .github-url {
+          padding-top: 5px;
+          font-size: 16px;
+          color: $app-dark-grey;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .language-links {
+      > a {
+        padding-left: 35px;
+        text-decoration: none;
+        font-family: $font-subheading;
+        font-size: 18px;
+        color: $app-dark-grey;
+
+        &:hover {
+          color: $app-black;
+        }
+      }
+    }
+  }
+
+  .app-header-bar-divider {
+    height: 2px;
+    width: 100%;
+    background-color: $app-light-grey;
+  }
+}

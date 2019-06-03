@@ -1,0 +1,10 @@
+@import "../../style/colors.scss";
+
+.language-summary-bar {
+  height: 50px;
+  width: 100%;
+
+  border-width: 2px;
+  border-color: $app-light-grey;
+  background-color: #ffffff;
+}

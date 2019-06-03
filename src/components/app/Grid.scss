@@ -1,0 +1,12 @@
+@import "../../style/fonts.scss";
+@import "../../style/colors.scss";
+
+.GridLayout {
+  display: flex;
+  margin: 27px;
+}
+
+.column {
+  margin: 25px;
+  width: 30%;
+}

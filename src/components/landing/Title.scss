@@ -1,0 +1,48 @@
+@import "../../style/fonts.scss";
+
+.title-wrapper {
+  position: relative;
+  background-color: #2b3138;
+  height: 675px;
+  width: 100%;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  padding-left: calc(7% + 22px);
+  padding-top: 92px;
+  width: 475px;
+}
+
+.title h1 {
+  margin: 0;
+  font-family: $font-heading;
+  font-size: $heading-size;
+  font-weight: $heading-weight;
+  color: white;
+}
+
+.title h2 {
+  display: inline-block;
+  position: relative;
+  padding-top: 30px;
+  margin: 0;
+  line-height: 40px;
+
+  font-family: $font-subheading;
+  font-size: $subheading-size;
+  font-weight: $subheading-weight;
+  color: white;
+  opacity: 0.6;
+}
+
+.github-signin {
+  display: inline-block;
+  margin-top: 45px;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-left: 20px;
+}

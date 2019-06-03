@@ -1,0 +1,53 @@
+@import "../../style/fonts.scss";
+@import "../../style/colors.scss";
+
+.outerListBox1 {
+    max-width: 100%;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    padding-left: 23px;
+    padding-right: 20px;
+}
+
+.innerStrip1 {
+  width: 100%;
+  letter-spacing: 0.9px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 599;
+  color: $app-dark-grey;
+  padding-bottom: 11px;
+}
+
+.dataStrip {
+  width: 100%;
+  display: flex;
+  font-weight: normal;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.dataStrip div:last-child {
+  padding-right: 5px;
+}
+
+.progressBarOutline {
+  //width: 355;
+  padding-top: 4px;
+}
+
+.progressBar {
+  background-color: black;
+  width: 100%;
+  height: 6px;
+
+  border-top-left-radius: 5px 50%;
+  border-bottom-left-radius: 5px 50%;
+
+  border-top-right-radius: 5px 50%;
+  border-bottom-right-radius: 5px 50%;
+}
+
+.progressBarData {
+  padding-left: 11px;
+}

@@ -1,0 +1,32 @@
+@import "../../style/fonts.scss";
+@import "../../style/colors.scss";
+
+.outerCard {
+    width: 100%;
+    border: 1px solid $app-dark-grey;
+    //margin: 25px;
+    margin-bottom: 25px;
+}
+
+.header-title {
+  border-bottom: 2px solid $app-light-grey;
+  letter-spacing: 0.6px;
+  display: flex;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: $app-light-grey;
+  max-width: 100%;
+  font-weight: 600;
+  color: $app-dark-grey;
+}
+
+.titleClass {
+  padding-top: 4px;
+  padding-left: 9px;
+}
+
+.questionMarkLogo {
+  padding-left: 10px;
+  height: 20;
+}

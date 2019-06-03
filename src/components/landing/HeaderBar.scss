@@ -1,0 +1,56 @@
+@import "../../style/fonts.scss";
+
+.navbar-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  top: 0px;
+  left: 0px;
+
+  background-color: #24292f;
+}
+
+.navbar {
+  display: flex;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.navbar-links {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.for-recruiters {
+  padding: 10px 15px 10px 15px;
+  background-color: #2fb94e;
+  border-radius: 3px;
+}
+
+.for-recruiters:hover {
+  background-color: #319546;
+  opacity: 1 !important;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.65px;
+}
+
+.navbar-links a:hover {
+  opacity: 0.75;
+}
+
+.navbar-navlinks {
+  padding-right: 25px;
+}

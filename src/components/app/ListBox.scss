@@ -1,0 +1,87 @@
+@import "../../style/fonts.scss";
+@import "../../style/colors.scss";
+
+.outerListBox {
+    width: 100%;
+}
+
+.innerListBox {
+  border-bottom: 2px solid $app-light-grey;
+  padding: 14px;
+  padding-left: 23px;
+  padding-right: 20px;
+}
+
+.innerStrip {
+  display: flex;
+  letter-spacing: 0.9;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 599;
+  color: $app-dark-grey;
+}
+
+.innerStrip div:last-child {
+  margin-left: auto;
+  padding-right: 5px;
+}
+
+.innerStrip span:last-child {
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.innerChildrenStrip {
+  display: flex;
+  letter-spacing: 0.4;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 599;
+  color: $app-dark-grey;
+  padding-top: 5px;
+}
+
+.innerChildrenStrip div:last-child {
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.innerChildrenStrip span:last-child {
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.ChildrenGroup {
+  padding-top: 9px;
+}
+
+.percentilesClass {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
+  font-size: 9px;
+  font-weight: 599;
+  color: $app-dark-grey;
+  padding-top: 11px;
+}
+
+.arrow {
+  cursor: pointer;
+  padding-left: 8px;
+}
+
+.arrowLogo1 {
+  width: 12px;
+  height: 7px;
+  transform: rotate(270deg);
+  padding-bottom: 4px;
+}
+
+.arrowLogo2 {
+  width: 12px;
+  height: 7px;
+  padding-bottom: 2px;
+}
+
+.urlClass {
+  // padding-right: 3px;
+}
